@@ -1,0 +1,22 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .nav-bar-item {
+        font-size: larger;
+        font-weight: 600;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 5px;
+        transition: transform 0.3s ease, background-color 0.3s ease-in-out;
+        
+        &:hover, &:active {
+            background-color: #7B66FB;
+            color: #fff;
+        }
+    }
+}
