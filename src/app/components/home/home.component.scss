@@ -1,0 +1,64 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+
+  .content {
+    max-width: 20%;
+    padding-right: 20px;
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+
+        &.btn-primary {
+          background-color: #7d4cf9;
+          color: white;
+
+          &:hover {
+            background-color: #6e3af3;
+          }
+
+          &:active {
+            background-color: #6e3af3;
+          }
+        }
+
+        &.btn-secondary {
+          background-color: transparent;
+          color: #7d4cf9;
+          border: 1px solid #7d4cf9;
+
+          &:hover {
+            background-color: #6e3af3;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    width: 25%;
+    border-radius: 10px;
+  }
+}
